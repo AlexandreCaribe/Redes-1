@@ -50,6 +50,29 @@ A Raspberry Pi tem uma única função que é a de leitura do sensor RFID e envi
 O problema segue esse Fluxo: 
 ![Casos drawio+(1)](https://github.com/AlexandreCaribe/Redes-1/assets/38389307/1b166fd0-8b2f-4ff1-b9a9-c6465de9035c)
 
+## Para a execução do problema é necessário seguir estes passos abaixo
+
+#### Executar os Código dentro da Raspberry Pi:
+```
+  SSH -o ServerAliveInterval= 60 172.16.103.0
+```
+```
+  cd TP01/Alexandre/exec
+```
+```
+  python3 rasp.py
+```
+
+```
+  python3 server.py
+```
+
+####Executar o código do Caixa:
+
+```
+  python3 caixa.py
+```
+
 ## Resultados e Discussões
 Os resultados do projeto incluem uma solução funcional de caixa inteligente que simplifica o processo de compra para os clientes. No entanto uma solução incompleta visto que não foi possível colocar a aplicação funcional na nuvem com o Google Cloud, pois ao fazer requisições do Cliente para o Servidor havia alguma barreira travando essa comunicação. O Servidor ainda respondia as requisições através do Insomnia, porém ele não identificava de forma alguma as requisições do Cliente Local, mesmo com todas as informações de endereços IPs e portas corretamente, além de estar habilitado o modo HTTP e HTTPS para comunicação no Google Cloud.
 
