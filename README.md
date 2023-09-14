@@ -58,7 +58,7 @@ O Administrador também ficou incompleto sem poder visualizar o Histórico de Co
 As discussões se concentram nas vantagens da automação e no potencial de expansão e aprimoramento do sistema. Como uma melhoria na Interface do Cliente, uma comunicação ainda mais rápida do Servidor e expansão de produtos e metódos usando Banco de Dados ou implementando outras aplicações.
 
 ## Conclusão
-O projeto Supermercado inteligente demonstra a aplicação bem-sucedida de tecnologias como RFID, comunicação em rede e automação de checkout. Essa solução pode ser implementada em estabelecimentos comerciais para melhorar a eficiência e a experiência do cliente.
+O projeto Supermercado inteligente demonstra que se bem-aplicada a automação de Compras de supermercado pode se beneficiar muito de tecnologias como RFID, comunicação em rede e automação de serviço. Essa solução pode ser implementada em estabelecimentos comerciais para melhorar a eficiência e a experiência do cliente.É necessário fazer uma implementação mais limpa e completa com comunicação com a nuvem e funções administrativas implementadas.
 
 Autor
 =======
